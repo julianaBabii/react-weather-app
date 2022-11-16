@@ -1,13 +1,10 @@
 import React from "react";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./Weather.css";
-import Search from "./Search";
-import Forecast from "./Forecast";
-import Temperature from "./Temperature";
 
 export default function Weather() {
   let weatherData = {
-    city: "New York",
+    city: "Athens",
     temperature: 19,
     date: "Tuesday 10:00",
     description: "Cloudy",
